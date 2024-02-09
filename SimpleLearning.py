@@ -25,7 +25,7 @@ predictor = LinearRegression()
 predictor.fit(X=train_input, y=train_output)
 
 #Прогназирование
-x_test = [[10, 20, 30]]
+x_test = [[10, 20, 60]]
 outcome = predictor.predict(X=x_test)
 coefficients = predictor.coef_
 
