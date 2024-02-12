@@ -14,7 +14,7 @@ df = pd.read_csv('p1_diamonds.csv')
 df = df.drop(['Unnamed: 0'], axis = 1)
 
 #Создание переменных для категорий
-categorical_features = ['cut', ' color', 'clarity']
+categorical_features = ['cut', 'color', 'clarity']
 le = LabelEncoder()
 
 # Замена категорий на численные значения
